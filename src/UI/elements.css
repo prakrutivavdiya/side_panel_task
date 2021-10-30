@@ -1,0 +1,52 @@
+
+.Submit {
+    background-color:rgb(95, 175, 255);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.Submit:disabled{
+    background-color:#ddd;
+}
+
+.Delete {
+    background-color: rgb(252, 98, 98);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.Delete:disabled{
+    background-color:#ddd;
+}
+
+.Label{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    margin: 10px 2px;
+    width: 70px;
+}
+
+.FormInput, .FormSelect, .FormRadio, .FormTextArea, .FormCheckbox{
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    outline: none;
+    box-shadow: 2px 2px 2px #ccf;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.FormInput:focus, .FormSelect:focus, .FormRadio:focus, .FormTextArea:focus, .FormCheckbox:focus{
+    border: solid 1px dodgerblue;
+}
